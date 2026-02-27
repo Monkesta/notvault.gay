@@ -51,11 +51,12 @@ nav {
 
 .navList {
     display: inline;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .navLinks {
     display: flex;
+    gap: 0.5rem;
 }
 
 .navLinks a, .navList {
