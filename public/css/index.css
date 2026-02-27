@@ -41,7 +41,7 @@ body {
 
 /* --- Nav Button --- */
 nav {
-    position: fixed;
+    position: relative;
     top: 1rem;
     left: 1rem;
     display: flex; flex-direction: row;
