@@ -75,3 +75,88 @@ nav {
     background-color: #2a2a2a;
     border-color: #555;
 }
+
+/* --- Mobile stuff --- */
+@media (max-width: 768px) {
+    .heroContainer h1 {
+        font-size: 2rem;
+    }
+
+    .heroContainer h1 svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .heroImage {
+        width: 200px;
+        height: auto;
+    }
+
+    nav {
+        left: 0.5rem;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+
+    .navList {
+        margin-right: 0.25rem;
+        font-size: 0.75rem;
+    }
+
+    .navLinks {
+        gap: 0.25rem;
+        flex-wrap: wrap;
+    }
+
+    .navLinks a, .navList {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroContainer {
+        height: 100vh;
+        padding: 0;
+        gap: 1.5rem;
+    }
+
+    .heroContainer h1 {
+        font-size: 2.2rem;
+    }
+
+    .heroContainer h1 svg {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .heroImage {
+        width: 280px;
+        height: auto;
+    }
+
+    nav {
+        left: 0.5rem;
+        right: 0.5rem;
+        top: 0.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+
+    .navList {
+        margin-right: 0;
+        font-size: 0.7rem;
+    }
+
+    .navLinks {
+        gap: 0.2rem;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .navLinks a, .navList {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.7rem;
+    }
+}
