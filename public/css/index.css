@@ -1,6 +1,7 @@
 /* --- Main setup stuff --- */
 :root {
-    --bg-color: #0e0e0e;
+    --bg-color:#0e0e0e;
+    --nav-bg-color:#1a1a1a;
 }
 
 body {
@@ -42,7 +43,7 @@ body {
 
 /* --- Nav Button --- */
 nav {
-    position: absolute;
+    position: absolute; z-index: 1000;
     top: 1rem;
     left: 1rem;
     display: flex; flex-direction: row;
@@ -62,7 +63,7 @@ nav {
 
 .navLinks a, .navList {
     padding: 0.5rem 1rem;
-    background-color: #1a1a1a;
+    background-color: var(--nav-bg-color);
     color: #fff;
     text-decoration: none;
     border: 1px solid #333;
