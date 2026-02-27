@@ -19,6 +19,7 @@ body {
     align-items: center; justify-content: center;
     height: 100vh;
     gap: 1rem;
+    position: relative;
 }
 
 .heroContainer h1 {
@@ -41,7 +42,7 @@ body {
 
 /* --- Nav Button --- */
 nav {
-    position: fixed;
+    position: absolute;
     top: 1rem;
     left: 1rem;
     display: flex; flex-direction: row;
