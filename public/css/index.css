@@ -1,7 +1,6 @@
 /* --- Main setup stuff --- */
 :root {
-    --bg-color: #1a0000;
-    --accent-color: #ff0000;
+    --bg-color: #0e0e0e;
 }
 
 body {
@@ -62,10 +61,10 @@ nav {
 
 .navLinks a, .navList {
     padding: 0.5rem 1rem;
-    background-color: #330000;
+    background-color: #1a1a1a;
     color: #fff;
     text-decoration: none;
-    border: 1px solid var(--accent-color);
+    border: 1px solid #333;
     border-radius: 0.25rem;
     font-size: 0.9rem;
     transition: all 0.2s ease;
@@ -73,6 +72,6 @@ nav {
 }
 
 .navLinks a:hover {
-    background-color: #660000;
-    border-color: var(--accent-color);
+    background-color: #2a2a2a;
+    border-color: #555;
 }
