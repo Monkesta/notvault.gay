@@ -61,6 +61,11 @@ body {
     width: 500px;
 }
 
+#heroImageBIGGER {
+    width: 550px;
+    height: auto;
+}
+
 /* --- Nav Button --- */
 nav {
     position: absolute; z-index: 1000;
@@ -114,6 +119,16 @@ nav {
         height: auto;
     }
 
+    .heroImageSBS img {
+        height: 250px;
+        width: 250px;
+    }
+
+    #heroImageBIGGER {
+        width: 300px;
+        height: auto;
+    }
+
     nav {
         left: 0.5rem;
         right: 0.5rem;
@@ -155,6 +170,16 @@ nav {
 
     .heroImage {
         width: 280px;
+        height: auto;
+    }
+
+    .heroImageSBS img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #heroImageBIGGER {
+        width: 200px;
         height: auto;
     }
 
