@@ -48,6 +48,19 @@ body {
     height: auto;
 }
 
+.heroImageSBS {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroImageSBS img {
+    height: 500px;
+    width: 500px;
+}
+
 /* --- Nav Button --- */
 nav {
     position: absolute; z-index: 1000;
