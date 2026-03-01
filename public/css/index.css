@@ -50,7 +50,7 @@ body {
     height: auto;
     border-radius: 15px;
     /* --- */
-    border: solid 2.5px #fff;
+    /* border: solid 2.5px #fff; */
     box-shadow: 0 0 8px #fff;
 }
 
