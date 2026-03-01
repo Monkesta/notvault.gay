@@ -136,6 +136,7 @@ body {
     color: white;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
+    border-left: solid 8px #fff;
 }
 
 /* --- Nav Button --- */
