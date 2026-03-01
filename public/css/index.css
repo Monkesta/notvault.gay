@@ -14,6 +14,8 @@ body {
     color: #fff;
     animation: fadeIn 0.8s ease-in-out forwards;
     scroll-behavior: smooth;
+    /* --- */
+    cursor: url(/public/assets/GAY_CURSOR.png), auto;
 }
 
 @keyframes fadeIn {
@@ -95,7 +97,6 @@ nav {
     border-radius: 0.25rem;
     font-size: 0.9rem;
     transition: all 0.2s ease;
-    cursor: pointer;
 }
 
 .navLinks a:hover {
