@@ -220,6 +220,11 @@ nav {
         padding: 0.4rem 0.8rem;
         font-size: 0.75rem;
     }
+
+    .emptyVH h1 {
+        font-size: 3rem;
+        padding: 12px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -277,5 +282,10 @@ nav {
     .navLinks a, .navList {
         padding: 0.3rem 0.6rem;
         font-size: 0.7rem;
+    }
+
+    .emptyVH h1 {
+        font-size: 2rem;
+        padding: 10px;
     }
 }
